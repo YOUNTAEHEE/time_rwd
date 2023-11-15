@@ -153,13 +153,57 @@ main {
 				top: 90px;
 				left: 80px;
 				font-size: 1.6rem;
-				opacity: 0;
+				opacity: 0.8;
+			}
 
-				&.on {
-					opacity: 0.8;
-				}
+			span {
+				width: 90px;
+				text-align: center;
 			}
 		}
+	}
+}
+
+//theme style
+//mornignt theme
+main.morning {
+	background-image: url(../img/bg_morning.jpg);
+
+	figure {
+		background-image: url(../img/phone_morning.png);
+	}
+}
+//afternoon theme
+main.afternoon {
+	background-image: url(../img/bg_afternoon.jpg);
+
+	figure {
+		color: #555;
+		background-image: url(../img/phone_afternoon.png);
+
+		.screen {
+			color: #555;
+		}
+	}
+}
+//evening theme
+main.evening {
+	background-image: url(../img/bg_evening.jpg);
+
+	figure {
+		background-image: url(../img/phone_evening.png);
+	}
+}
+//night theme
+main.night {
+	background-image: url(../img/bg_night.jpg);
+
+	nav {
+		color: #fff;
+	}
+
+	figure {
+		background-image: url(../img/phone_night.png);
 	}
 }
 
